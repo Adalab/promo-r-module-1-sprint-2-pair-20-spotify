@@ -1,8 +1,44 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 15px;
+  background-color: black;
+}
+
+.footer,
+.footer * {
+  font-size: 10px;
+  color: #999;
+}
+
+.footer-menu-links:hover {
+  color: white;
+}
+
+.footer-menu-items {
+  display: inline-block;
+}
+
+.footer-menu-links {
+  display: inline-block;
+  padding: 7px;
+}
+
+/* copy */
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.copy-year {
+  margin-top: 5px;
+}
+
+.copy-spain-flag {
+  margin-left: 5px;
+  height: 15px;
+  vertical-align: text-bottom;
 }

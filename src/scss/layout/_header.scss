@@ -1,5 +1,40 @@
-.page__header {
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 20px;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+}
+.hero-title {
+  margin-top: 50px;
+}
+.logo {
+  height: 30px;
+}
+.nav {
+  display: none;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.link {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: #4bb84a;
+}
+
+.link-signup:before {
+  padding-left: 4px;
+  content: "|";
+  color: white;
 }

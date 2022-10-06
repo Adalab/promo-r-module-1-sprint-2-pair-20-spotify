@@ -1,0 +1,31 @@
+.benefits-title {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 50px auto;
+  max-width: 400px;
+}
+
+/* benefit item */
+
+.benefit {
+  display: flex;
+  align-items: left;
+  padding: 10px;
+}
+
+.benefit-img {
+  margin: 15px;
+  width: 100px;
+}
+
+.benefit-title {
+  font-size: 1.25rem;
+  line-height: 25px;
+}
